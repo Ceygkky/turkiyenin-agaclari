@@ -1,51 +1,115 @@
-# 🍰 Şekersiz Tarifler
+# 🌳 Türkiye'nin Ağaçları
 
-Şekersiz Tarifler, rafine şeker kullanılmadan hazırlanabilecek tatlı, kek, kurabiye ve hamur işi tariflerinin paylaşıldığı basit ve kullanıcı dostu bir web sitesidir.
+Türkiye'nin Ağaçları, Türkiye'nin farklı coğrafi bölgelerinde yetişen ağaç türlerini tanıtmak ve doğa hakkında farkındalık oluşturmak amacıyla hazırlanmış bir web sitesidir.
 
 🌐 **Canlı Demo:**  
-https://ceygkky.github.io/Sekersiz-Tarifler/
+https://ceygkky.github.io/turkiyenin-agaclari/
 
 ---
 
 ## 📌 Proje Hakkında
 
-Bu projede kullanıcılar farklı kategoriler altında yer alan şekersiz tarifleri inceleyebilir ve tariflerin detay sayfalarına ulaşabilir.
+Bu proje, Türkiye'nin 7 coğrafi bölgesinde yetişen farklı ağaç türlerini kullanıcıların keşfedebilmesi amacıyla geliştirilmiştir.
 
-Ana sayfada öne çıkan tarifler gösterilirken, kategori sayfası üzerinden farklı tarif grupları keşfedilebilir.
+Kullanıcılar bölgelerde yetişen ağaçları inceleyebilir ve her ağaç için hazırlanmış detay sayfalarına ulaşabilir.
 
-Projede bulunan bazı tarifler:
+Proje aynı zamanda doğayı ve çevreyi koruma konusunda farkındalık oluşturmayı amaçlamaktadır.
 
-- 🧁 CupCake
-- 🍪 Şekerpare
-- 🥐 Tam Buğdaylı Poğaça
-- 🍫 Şekersiz Çikolata
-- 🍕 Pizza
-- 🥞 Krep
-- 🍰 Limonlu Kek
-- 🍇 Yulaflı Üzümlü Kurabiye
-- 🍮 Orman Meyveli Muhallebi
+---
+
+## 🗺️ Coğrafi Bölgeler
+
+Projede ağaç türleri Türkiye'nin 7 coğrafi bölgesine göre sınıflandırılmıştır:
+
+### 🌊 Akdeniz Bölgesi
+
+- Keçiboynuzu
+- Okaliptüs
+- Sedir
+
+### 🌿 Marmara Bölgesi
+
+- Akçaağaç
+- Çınar
+- Ihlamur
+- Meşe
+- Zeytin
+
+### 🌞 Ege Bölgesi
+
+- Çam Fıstığı
+- Defne
+- Kızılçam
+
+### 🌧️ Karadeniz Bölgesi
+
+- Göknar
+- Gürgen
+- Kayın
+- Kestane
+- Ladin
+- Porsuk
+
+### 🌾 İç Anadolu Bölgesi
+
+- Ardıç
+- İğde
+- Karaçam
+- Kavak
+
+### 🏔️ Doğu Anadolu Bölgesi
+
+- Huş
+- Sarıçam
+
+### ☀️ Güneydoğu Anadolu Bölgesi
+
+- Badem
+- Fıstık
 
 ---
 
 ## ✨ Özellikler
 
-- Tarifleri kategorilere göre görüntüleme
-- Öne çıkan tarifleri ana sayfada gösterme
-- Her tarif için ayrı detay sayfası
-- Tarif görselleri
-- Basit ve anlaşılır kullanıcı arayüzü
-- GitHub Pages üzerinden canlı yayın
+- 🌳 Türkiye'deki farklı ağaç türlerini keşfetme
+- 🗺️ Ağaçları coğrafi bölgelere göre görüntüleme
+- 📖 Her ağaç için ayrı detay sayfası
+- 🖼️ Ağaç ve doğa görselleri
+- 🏆 Ağaçların En'leri bölümü
+- 🌱 Doğayı koruma hakkında bilgilendirici içerikler
+- 🌍 Türkiye'nin doğal zenginliklerini tanıtma
+- 📱 Responsive tasarım
+- 🌐 GitHub Pages üzerinden canlı yayın
 
 ---
 
-## 🗂️ Kategoriler
+## 🌲 Projede Bulunan Bazı Ağaçlar
 
-Projede tarifler farklı kategoriler altında listelenmektedir:
-
-- 🍰 Tatlılar
-- 🍪 Kek & Kurabiye
-- 🥐 Hamur İşi
-- 🍫 Şekersiz Çikolata
+- Akçaağaç
+- Ardıç
+- Badem
+- Çam Fıstığı
+- Çınar
+- Defne
+- Fıstık
+- Göknar
+- Gürgen
+- Huş
+- İğde
+- Ihlamur
+- Karaçam
+- Kavak
+- Kayın
+- Keçiboynuzu
+- Kestane
+- Kızılçam
+- Ladin
+- Meşe
+- Okaliptüs
+- Porsuk
+- Sarıçam
+- Sedir
+- Zeytin
 
 ---
 
@@ -54,6 +118,9 @@ Projede tarifler farklı kategoriler altında listelenmektedir:
 - HTML5
 - CSS3
 - JavaScript
+- Bootstrap
+- jQuery
+- Font Awesome
 - Git
 - GitHub
 - GitHub Pages
@@ -63,29 +130,45 @@ Projede tarifler farklı kategoriler altında listelenmektedir:
 ## 📁 Proje Yapısı
 
 ```text
-Sekersiz-Tarifler/
+turkiyenin-agaclari/
 │
-├── images/
-│   └── Tarif görselleri
+├── assets/
+│   ├── css/
+│   ├── js/
+│   ├── img/
+│   └── fonts/
 │
 ├── index.html
-├── kategoriler.html
-├── tatlilar.html
-├── Kek-kurabiye.html
-├── hamur-işi.html
-├── çikolata-barlar.html
+├── akcaagac.html
+├── ardic.html
+├── badem.html
+├── cam-fistigi.html
+├── cinar.html
+├── defne.html
+├── fistik.html
+├── goknar.html
+├── gurgen.html
+├── hus.html
+├── igde.html
+├── ihlamur.html
+├── karacam.html
+├── kavak.html
+├── kayin.html
+├── keciboynuzu.html
+├── kestane.html
+├── kizilcam.html
+├── ladin.html
+├── mese.html
+├── okaliptus.html
+├── porsuk.html
+├── saricam.html
+├── sedir.html
+├── zeytin.html
 │
-├── cupcake.html
-├── şekerpare.html
-├── poğaça.html
-├── pizza.html
-├── krep.html
-├── limonlu-kek.html
-├── sufle.html
-├── şekersiz-çikolata.html
+├── ağaçların-enleri.html
+├── dogayi-koru.html
+├── hakkımda.html
 │
-├── style.css
-├── script.js
 └── README.md
 ```
 
@@ -93,21 +176,21 @@ Sekersiz-Tarifler/
 
 ## 🚀 Projeyi Çalıştırma
 
-Projeyi bilgisayarınızda çalıştırmak için repoyu klonlayın:
+Projeyi bilgisayarınıza klonlayın:
 
 ```bash
-git clone https://github.com/Ceygkky/Sekersiz-Tarifler.git
+git clone https://github.com/Ceygkky/turkiyenin-agaclari.git
 ```
 
 Proje klasörüne girin:
 
 ```bash
-cd Sekersiz-Tarifler
+cd turkiyenin-agaclari
 ```
 
 Daha sonra `index.html` dosyasını tarayıcıda açmanız yeterlidir.
 
-Herhangi bir paket veya ek kurulum gerekmemektedir.
+Herhangi bir ek paket veya kurulum gerekmemektedir.
 
 ---
 
@@ -115,37 +198,50 @@ Herhangi bir paket veya ek kurulum gerekmemektedir.
 
 Projeyi GitHub Pages üzerinden görüntüleyebilirsiniz:
 
-👉 https://ceygkky.github.io/Sekersiz-Tarifler/
+👉 https://ceygkky.github.io/turkiyenin-agaclari/
 
 ---
 
 ## 🎯 Projenin Amacı
 
-Bu proje ile temel web geliştirme teknolojileri kullanılarak çok sayfalı bir web sitesi geliştirilmesi amaçlanmıştır.
+Bu projenin temel amacı Türkiye'nin sahip olduğu doğal zenginlikleri ve farklı bölgelerde yetişen ağaç türlerini kullanıcı dostu bir web sitesi üzerinden tanıtmaktır.
 
 Proje geliştirilirken:
 
-- HTML sayfa yapısı oluşturma
-- CSS ile tasarım geliştirme
-- Sayfalar arasında bağlantı kurma
+- HTML ile çok sayfalı web sitesi oluşturma
+- CSS ile arayüz tasarlama
+- Bootstrap ile responsive tasarım geliştirme
+- JavaScript ve jQuery kullanımı
+- Sayfalar arasında bağlantı oluşturma
 - Görsel ve içerik yönetimi
 - Git ve GitHub kullanımı
-- GitHub Pages ile web sitesi yayınlama
+- GitHub Pages ile proje yayınlama
 
 konularında pratik yapılmıştır.
 
 ---
 
+## 🌱 Doğa Farkındalığı
+
+Proje yalnızca ağaç türlerini tanıtmayı değil, aynı zamanda doğayı koruma konusunda farkındalık oluşturmayı da amaçlamaktadır.
+
+Doğal yaşamın korunması ve gelecek nesillere daha yaşanabilir bir çevre bırakılması projenin temel mesajlarından biridir.
+
+> 🌍 Doğayı korumak, geleceğimizi korumaktır.
+
+---
+
 ## 🔮 Gelecekte Eklenebilecek Özellikler
 
-- 🔎 Tarif arama sistemi
-- ❤️ Favorilere ekleme
-- 🏷️ Tarif filtreleme
-- 📱 Mobil uyumluluğun geliştirilmesi
+- 🔎 Ağaç arama sistemi
+- 🗺️ İnteraktif Türkiye haritası
+- 🏷️ Bölge ve ağaç türüne göre filtreleme
+- ❤️ Favori ağaçları kaydetme
+- 📍 Konuma göre bölgede yetişen ağaçları gösterme
+- 📊 Ağaç türlerini karşılaştırma
+- 🌱 Fidan dikim rehberi
+- 🌤️ İklime göre uygun ağaç önerileri
 - 🌙 Dark Mode
-- ⭐ Tarif puanlama
-- ➕ Yeni tarif ekleme sistemi
-- 🍽️ Malzemeye göre tarif bulma
 
 ---
 
@@ -159,3 +255,5 @@ https://github.com/Ceygkky
 ---
 
 ⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın.
+
+🌳 **Doğayı keşfet, ağacı tanı, geleceği koru.**
