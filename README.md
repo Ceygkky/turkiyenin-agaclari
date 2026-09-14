@@ -37,7 +37,7 @@ Projede ağaç türleri Türkiye'nin 7 coğrafi bölgesine göre sınıflandır�
 
 ### 🌞 Ege Bölgesi
 
-- Çam Fıstığı
+- Çam Fıstıgı
 - Defne
 - Kızılçam
 
